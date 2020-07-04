@@ -1,0 +1,19 @@
+html, body {
+  height: 100vh;
+  background-color: darkgray;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.App, #root {
+  height: 100%;
+}
+
+.notepad {
+  max-width: 42em;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
